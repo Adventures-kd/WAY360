@@ -3775,3 +3775,44 @@ input, select, textarea {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 } */
+
+.team-icon{
+	/* max-width:12em; */
+	max-height: 12em;
+	border-radius: 50%;
+	/* border: 1px solid #E64A19; */
+	padding: 0.6em;
+	background: #ff5722;
+	
+	/* animation: pulse 10s ease-in-out; */
+
+	/* transition: 0.5s max-height; */
+	transition: 0.5s background;
+}
+
+.team-icon:hover{
+	/* max-height: 13em; */
+	background: #22fff8;
+}
+
+body{
+	animation: pulse 10s infinite;
+	-webkit-animation-direction: alternate-reverse;
+}
+
+@keyframes pulse {
+    from {
+		background: #ff5722;
+	}
+    to {
+		background: #E64A19;
+	}
+}
+
+.client-icon{
+	min-height: 10em;
+	max-height: 10em;
+	min-width: 10em;
+	max-width: 10em;
+	background: #DDDDDD;
+}
