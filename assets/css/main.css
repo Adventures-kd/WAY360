@@ -3777,22 +3777,15 @@ input, select, textarea {
 } */
 
 .team-icon{
-	/* max-width:12em; */
 	max-height: 12em;
 	border-radius: 50%;
-	/* border: 1px solid #E64A19; */
 	padding: 0.6em;
 	background: #ff5722;
-	
-	/* animation: pulse 10s ease-in-out; */
-
-	/* transition: 0.5s max-height; */
 	transition: 0.5s background;
 }
 
 .team-icon:hover{
-	/* max-height: 13em; */
-	background: #22fff8;
+	background: #E64A19;
 }
 
 body{
